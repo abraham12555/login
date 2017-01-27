@@ -39,13 +39,13 @@
 
 					<div class="control">
 						<div class="label">Nombre de usuario o Correo</div>
-						<input type="text" name="username" class="form-control" value=" "
+						<input type="text" name="username" class="form-control" value="abraham"
 							placeholder="Ejemplo: abraham1255@gmail.com" />
 					</div>
 
 					<div class="control">
 						<div class="label">Contraseña</div>
-						<input type="password" name="password" class="form-control"
+						<input type="password" name="password" value="123" class="form-control"
 							value="" />
 					</div>
 					<div align="center">

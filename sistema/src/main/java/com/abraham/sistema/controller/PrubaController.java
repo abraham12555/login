@@ -27,8 +27,8 @@ public class PrubaController {
 			Logger log = Logger.getLogger("Logger de Ejemplo");
 			log.warn("un warning");
     	Usuario usuario= new Usuario();
-    	usuario.setIduser(29);
-    	usuario.setLogin("El jairo");
+    	usuario.setIduser(30);
+    	usuario.setLogin("El abraham");
 			log.warn(usuario.getIduser());
 			log.warn(usuario.getLogin());
 			log.warn("un warning");
