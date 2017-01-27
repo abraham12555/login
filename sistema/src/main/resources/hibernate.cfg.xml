@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.password">$Abraham21</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/sistematandas</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+
+		<mapping class="com.abraham.sistema.model.Periodo" />
+		<mapping class="com.abraham.sistema.model.Tanda" />
+		<mapping class="com.abraham.sistema.model.Calendariopagos" />
+		<mapping class="com.abraham.sistema.model.Ejerce" />
+		<mapping class="com.abraham.sistema.model.Involucrado" />
+		<mapping class="com.abraham.sistema.model.Pago" />
+		<mapping class="com.abraham.sistema.model.Perfil" />
+		<mapping class="com.abraham.sistema.model.Usuario" />
+
+	</session-factory>
+</hibernate-configuration>
